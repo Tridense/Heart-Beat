@@ -7,7 +7,7 @@ Heart beat status for Arturo's PTCGP bot (His version 6.2.6beta)
 
 
 
-Guide for HBM002:
+Guide for HBM003.py:
 
 1. Make a bot on discord:
   Go to discord developer portal website
