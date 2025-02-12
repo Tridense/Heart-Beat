@@ -23,7 +23,7 @@ Guide for HBM003.py:
 3. Open your python interpreter of choice:
    
    I used pycharm, but VS code should also work.
-    1. Open the HBM002.py file
+    1. Open the HBM003.py file
     2. Do the following commands in the terminal:
        1. pip install python
        2. pip install audioop-lts
