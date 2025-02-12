@@ -11,6 +11,7 @@ Heart beat status for Arturo's PTCGP bot (His version 6.2.6beta)
 Guide for HBM003.py:
 
 1. Make a bot on discord:
+   
   Go to discord developer portal website
     1. Click New Application
     2. Go to OAuth2 page, check off the Bot square
@@ -19,7 +20,8 @@ Guide for HBM003.py:
     5. Go to the Bot tab on the left, click reset token and save the string of symbols in a safe place like a .txt file.
     6. Scroll down and enable "Message Content Intent".
 
-2. Open your python interpreter of choice
+3. Open your python interpreter of choice:
+   
    I used pycharm, but VS code should also work.
     1. Open the HBM002.py file
     2. Do the following commands in the terminal:
@@ -32,6 +34,7 @@ Guide for HBM003.py:
     7. Copy the discord bot token into line 20.
 
 4. Run the script.
+   
    Tips:
     1. Make sure the heart beat user id field in the AHK window (heartBeatName in settings.ini) only contains the discord user ID of the person.
     2. Make sure to have a seperate webhook for the god packs and the heart beat for it to run properly.
