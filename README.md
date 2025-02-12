@@ -23,6 +23,7 @@ Guide for HBM003.py:
     2. Do the following commands in the terminal:
        1. pip install python
        2. pip install audioop-lts
+       3. pip install python-dotenv
     3. Copy the user ID of the heartbeat webhook. Paste into line 16. (Right click o the username and select "Copy User ID". Make sure you have developer mode turned on in discord).
     4. Copy the channel ID of where the webhook is sending messages, and paste it into line 17.
     5. Copy the channel ID of where you want to post the status message, and paste it into line 18.
