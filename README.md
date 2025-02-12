@@ -35,6 +35,8 @@ Guide for HBM003.py:
    Tips:
     1. Make sure the heart beat user id field in the AHK window (heartBeatName in settings.ini) only contains the discord user ID of the person.
     2. Make sure to have a seperate webhook for the god packs and the heart beat for it to run properly.
+    3. If you want to turn off warning messages, set line 25 to 0.
+    4. This script will hit the discord character limit at around 37 users. If you want to remove/ edit any part of the lines that are sent you can find it at line 71.
 
 
 
