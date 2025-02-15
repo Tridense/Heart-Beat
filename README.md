@@ -7,6 +7,8 @@ Heart beat status for Arturo's PTCGP bot (His version 6.2.6beta)
 
 ![image](https://github.com/user-attachments/assets/3b74c83a-f3c4-41a8-8cb4-6d4c2c5fa84a)
 
+![image](https://github.com/user-attachments/assets/42bcc247-f1eb-46fe-af94-22ee73cca606)
+
 
 Guide for HBM004.py:
 
