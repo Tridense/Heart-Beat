@@ -8,7 +8,7 @@ Heart beat status for Arturo's PTCGP bot (His version 6.2.6beta)
 ![image](https://github.com/user-attachments/assets/3b74c83a-f3c4-41a8-8cb4-6d4c2c5fa84a)
 
 
-Guide for HBM003.py:
+Guide for HBM004.py:
 
 1. Make a bot on discord: Go to discord developer portal website
     1. Click New Application
@@ -19,24 +19,24 @@ Guide for HBM003.py:
     6. Scroll down and enable "Message Content Intent".
 
 3. Open your python interpreter of choice:I used pycharm, but VS code should also work.
-    1. Open the HBM003.py file
+    1. Open the HBM004.py file
     2. Do the following commands in the terminal:
        1. pip install python
        2. pip install audioop-lts
-       3. pip install python-dotenv
-    3. Copy the user ID of the heartbeat webhook. Paste into line 16. (Right click o the username and select "Copy User ID". Make sure you have developer mode turned on in discord).
-    4. Copy the channel ID of where the webhook is sending messages, and paste it into line 17.
-    5. Copy the channel ID of where you want to post the status message, and paste it into line 18.
-    6. Copy the channel ID of where you want to post the warning messages that ping users who have less than 3 instances running, and paste it into line 19.
-    7. Copy the discord bot token into line 20.
+       3. pip install numpy
+    3. Copy the user ID of the heartbeat webhook. Paste into line 19. (Right click o the username and select "Copy User ID". Make sure you have developer mode turned on in discord).
+    4. Copy the channel ID of where the webhook is sending messages, and paste it into line 20.
+    5. Copy the channel ID of where you want to post the status message, and paste it into line 21.
+    6. Copy the channel ID of where you want to post the warning messages that ping users who have less than 3 instances running, and paste it into line 22.
+    7. Copy the discord bot token into line 23.
 
 4. Run the script.
 
 Tips:
 1. Make sure the heart beat user id field in the AHK window (heartBeatName in settings.ini) only contains the discord user ID of the person.
 2. Make sure to have a seperate webhook for the god packs and the heart beat for it to run properly.
-3. If you want to turn off warning messages, set line 25 to 0.
-4. This script will hit the discord character limit at around 37 users. If you want to remove/ edit any part of the lines that are sent you can find it at line 71.
+3. If you want to turn off warning messages, set line 28 to 0.
+4. This script will hit the discord character limit at around 37 users. If you want to remove/ edit any part of the lines that are sent you can find it at line 78.
 
 
 
